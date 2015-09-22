@@ -1,0 +1,41 @@
+{
+  "name": "wpscholar-gulp-task-browserify",
+  "version": "1.0.0",
+  "description": "Custom browserify task.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wpscholar/wpscholar-gulp-task-browserify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wpscholar/wpscholar-gulp-task-browserify/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Micah Wood",
+    "email": "micah@wpscholar.com",
+    "url": "http://wpscholar.com"
+  },
+  "contributors": [],
+  "license": "GPL-2.0+",
+  "keywords": [
+    "gulp",
+    "browserify"
+  ],
+  "dependencies": {
+    "browserify": "^11.1.0",
+    "gulp": "^3.9.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-size": "^2.0.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.4.1",
+    "mac-sounds": "^0.1.1",
+    "path": "^0.12.7",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
